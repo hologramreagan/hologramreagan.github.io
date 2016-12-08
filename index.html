@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<!--<![endif]-->
+	<head>
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="Hologram Reagan">
+		<meta name="keywords" content="Hologram Reagan">
+		<title>Hologram Reagan</title>
+		<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700|Sacramento" rel="stylesheet">
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link rel="icon" type="image/png" href="favicon.png">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/jquery-3.1.1.min.js"></script>
+
+<script>
+$( document ).ready(function() {
+	$('#mobile-nav-toggle').on("click", function() {
+		$('#mobile-nav-items').toggleClass('expanded'),
+		$('#navicon').toggleClass('nav-rotate');
+	});
+
+	$('#slider').slippry();
+
+
+
+	$('.homelink').on("click", function() {
+		$('#mobile-nav-items').toggleClass('expanded');
+	});
+});
+</script>
+
+	</head>
+	<body>
+		<img class="bg" src="images/home_bg_hr.jpg">
+		<header class="main-header">
+			<div class="container">
+				<div class="title">
+					<img src="images/logo_white_hr.png" class="logo">
+					<p>Coming soon</p>
+				</div>
+			</div>
+		</header>
+	</body>
+</html>

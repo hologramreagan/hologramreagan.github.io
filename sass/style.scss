@@ -1,0 +1,21 @@
+@import "compass";
+@import "compass/reset";
+
+
+@import "_partials/variables";
+@import "_partials/typography"; 
+
+@import "_pages/index";
+@import "_pages/content";
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
